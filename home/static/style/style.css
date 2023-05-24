@@ -1,0 +1,142 @@
+
+.info{
+    color: white;
+   
+}
+.info_item{
+    color: white;
+    padding-left: 50px;
+}
+.info_blog{
+    display: flex;
+    justify-content: space-around;
+}
+.info-footer{
+    height: 40px;
+    background-color: #212529;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    justify-items: center;
+}
+.desc{
+    color: white;
+}
+.responsive-img{
+    image-rendering: pixelated;
+    object-fit: cover;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.about-me{
+    margin-top: 50px;
+    color: #ffbd39;
+    margin-left: 50px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.about-item{
+    margin-top: 20px;
+    color: black;
+    margin-left: 50px;
+}
+.button{
+    width: 150px;
+    height: 40px;
+    background-color:#ffbd39;
+    font-weight: 500;
+    margin-top: 50px;
+    margin: 50px;
+    border-radius: 20px;
+    justify-content: center;
+    justify-items: center;
+}
+.icon{
+    font-size: 30px;
+    color: #ffbd39;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.info_contact{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255, 238, 214);
+    margin-top: 50px;
+    margin-left: 60px;
+    align-items: center;
+    border-radius: 30px;
+}
+.buttonn{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.a{
+    width: 300px;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    color: gray;
+}
+.mess_button{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: gray;
+}
+.send_button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #ffbd39;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+.img_contact{
+    width: 300px;
+    display: flex;
+    object-fit: cover;
+}
+.button_1{
+    background-color: blanchedalmond;
+    width: 350px;
+}
+.contact_item{
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    margin: 100px 0px 50px 70px;
+    justify-content: start;
+    justify-items: start;
+}
+.item{
+    font-weight: 500;
+    font-size: 20px;
+}
+.img {
+    width: 100%;
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.blog-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+

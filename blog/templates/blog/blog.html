@@ -1,0 +1,42 @@
+{% extends "page/base.html" %} {% block title %}Blog{% endblock %}
+{% block content %} 
+
+    <section class="home-blog">
+    <div class="container">
+		
+		<!-- section title ends -->
+		<div class="row " style="justify-content: space-between; padding-top: 50px; padding-bottom: 100px;">
+      {% for post in Posts %}
+
+	  <div class="col-sm-5"  >
+		<div class="blog-grid">
+			<div class="blog-img">
+				<a href="#">
+					<img src="{{post.image.url}}" title="" alt="">
+				</a>
+			</div>
+			<div class="blog-info" style="margin:55px 0 10px 0">
+				<h5><a  href="{{post.id}}">My Blog</a></h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<div class="btn-bar">
+					<a href="{{post.id}}" class="px-btn-arrow">				
+						<span>Read More</span>
+						<i class="arrow"></i>
+					</a>
+				</div>
+			</div>
+
+			<hr style="padding-bottom: 50px;">
+
+		</div>
+	</div>
+	{% endfor %} 
+      
+		</div>
+	</div>
+</section>
+
+
+  
+
+{% endblock %}
